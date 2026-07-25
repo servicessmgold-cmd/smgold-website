@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://smgold.sargodha.pk/sitemap.xml
+Sitemap: https://smgold.shop/sitemap.xml
