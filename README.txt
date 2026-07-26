@@ -34,7 +34,7 @@ Option A  Drag and drop (fastest, no account setup beyond signing in):
   1. Go to app.netlify.com and log in (free plan is enough).
   2. On the "Sites" tab, drag the "dist" folder straight onto the page.
   3. Netlify uploads it and gives you a live *.netlify.app URL instantly.
-  4. Later, add your own domain (smgold.sargodha.pk) under Site settings ->
+  4. Later, add your own domain (smgold.shop) under Site settings ->
      Domain management, free of charge on Netlify's side (you only pay your
      domain registrar for the domain itself).
 
@@ -95,7 +95,7 @@ BEFORE YOU GO LIVE
 2. Gold rates: rate numbers are static placeholders in index.html and
    gold-rate.html (search "rate-value"). Update them each time prices
    change, or connect a live rate feed later.
-3. Canonical/OG URLs point to https://smgold.sargodha.pk/  update the
+3. Canonical/OG URLs point to https://smgold.shop/  update the
    SITE constant if you deploy under a different domain, then resubmit
    sitemap.xml in Google Search Console.
 4. Privacy Policy / Terms pages are a generic template, not legal advice 
