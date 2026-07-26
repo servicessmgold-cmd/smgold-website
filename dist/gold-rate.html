@@ -37,7 +37,57 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Playfair+Display:wght@600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
-<script type="application/ld+json">{
+<!-- Gold Rate WebPage Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": "https://smgold.shop/gold-rate.html#webpage",
+  "url": "https://smgold.shop/gold-rate.html",
+  "name": "Today's Gold Rate in Sargodha | SM Gold",
+  "description": "Check today's 24K, 22K, 21K and 18K gold rates in Sargodha. Updated daily by SM Gold Sargodha.",
+  "isPartOf": {
+    "@id": "https://smgold.shop/#website"
+  },
+  "about": {
+    "@id": "https://smgold.shop/#organization"
+  },
+  "inLanguage": "en-PK"
+}
+</script>
+
+<!-- Gold Rate Dataset Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "@id": "https://smgold.shop/gold-rate.html#dataset",
+  "name": "Daily Gold Rate in Sargodha",
+  "description": "Daily updated gold prices for 24K, 22K, 21K and 18K gold in Sargodha, Pakistan.",
+  "url": "https://smgold.shop/gold-rate.html",
+  "creator": {
+    "@id": "https://smgold.shop/#organization"
+  },
+  "publisher": {
+    "@id": "https://smgold.shop/#organization"
+  },
+  "keywords": [
+    "Gold Rate",
+    "Gold Price",
+    "24K Gold",
+    "22K Gold",
+    "21K Gold",
+    "18K Gold",
+    "Gold Rate Sargodha",
+    "Gold Rate Pakistan"
+  ],
+  "license": "https://creativecommons.org/licenses/by/4.0/"
+}
+</script>
+
+<!-- Breadcrumb Schema -->
+<script type="application/ld+json">
+{
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
@@ -50,10 +100,12 @@
     {
       "@type": "ListItem",
       "position": 2,
-      "name": "Gold Rate"
+      "name": "Gold Rate",
+      "item": "https://smgold.shop/gold-rate.html"
     }
   ]
-}</script>
+}
+</script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
