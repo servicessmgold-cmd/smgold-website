@@ -37,16 +37,58 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Playfair+Display:wght@600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
+<!-- Service Schema -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Service",
+  "@id": "https://smgold.shop/gold-polishing-repair.html#service",
+  "name": "Gold Polishing & Repair",
   "serviceType": "Gold Polishing & Repair",
-  "provider": {"@type": "JewelryStore", "name": "SM Gold Sargodha", "telephone": "+923236069069"},
-  "areaServed": {"@type": "City", "name": "Sargodha"},
-  "url": "https://smgold.shop/gold-polishing-repair.html"
+  "description": "SM Gold Sargodha provides professional gold jewellery polishing, repair, restoration, resizing, stone replacement, soldering, ring repair, necklace repair and jewellery cleaning services.",
+  "url": "https://smgold.shop/gold-polishing-repair.html",
+  "provider": {
+    "@id": "https://smgold.shop/#organization"
+  },
+  "areaServed": {
+    "@type": "City",
+    "name": "Sargodha"
+  },
+  "availableLanguage": [
+    "English",
+    "Urdu"
+  ],
+  "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "priceCurrency": "PKR",
+    "url": "https://smgold.shop/contact.html"
+  }
 }
-</script><script type="application/ld+json">{
+</script>
+
+<!-- WebPage Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": "https://smgold.shop/gold-polishing-repair.html#webpage",
+  "url": "https://smgold.shop/gold-polishing-repair.html",
+  "name": "Gold Polishing & Repair | SM Gold Sargodha",
+  "description": "Professional gold jewellery polishing, repair, resizing, restoration and cleaning services in Sargodha.",
+  "isPartOf": {
+    "@id": "https://smgold.shop/#website"
+  },
+  "about": {
+    "@id": "https://smgold.shop/#organization"
+  },
+  "inLanguage": "en-PK"
+}
+</script>
+
+<!-- Breadcrumb Schema -->
+<script type="application/ld+json">
+{
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
@@ -65,10 +107,12 @@
     {
       "@type": "ListItem",
       "position": 3,
-      "name": "Gold Polishing & Repair"
+      "name": "Gold Polishing & Repair",
+      "item": "https://smgold.shop/gold-polishing-repair.html"
     }
   ]
-}</script>
+}
+</script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
