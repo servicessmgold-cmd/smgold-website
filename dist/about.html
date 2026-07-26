@@ -37,23 +37,70 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Playfair+Display:wght@600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
-<script type="application/ld+json">{
+<!-- AboutPage Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "AboutPage",
+  "@id": "https://smgold.shop/about.html#webpage",
+  "url": "https://smgold.shop/about.html",
+  "name": "About SM Gold Sargodha",
+  "description": "Learn about SM Gold Sargodha, a trusted jewellery store and goldsmith serving Sargodha since 1985.",
+  "isPartOf": {
+    "@id": "https://smgold.shop/#website"
+  },
+  "about": {
+    "@id": "https://smgold.shop/#organization"
+  },
+  "inLanguage": "en-PK"
+}
+</script>
+
+<!-- Organization Reference -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "JewelryStore",
+  "@id": "https://smgold.shop/#organization",
+  "name": "SM Gold Sargodha",
+  "url": "https://smgold.shop/",
+  "logo": "https://smgold.shop/images/logo.png",
+  "image": "https://smgold.shop/images/hero-gold-jewelry.jpg",
+  "telephone": "+923236069069",
+  "email": "services.smgold@gmail.com",
+  "foundingDate": "1985",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "1st Floor, Alfalah Market, Sarafa Bazar",
+    "addressLocality": "Sargodha",
+    "addressRegion": "Punjab",
+    "postalCode": "40100",
+    "addressCountry": "PK"
+  }
+}
+</script>
+
+<!-- Breadcrumb Schema -->
+<script type="application/ld+json">
+{
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
-  "itemListElement": [
+  "itemListElement":[
     {
-      "@type": "ListItem",
-      "position": 1,
-      "name": "Home",
-      "item": "https://smgold.shop/"
+      "@type":"ListItem",
+      "position":1,
+      "name":"Home",
+      "item":"https://smgold.shop/"
     },
     {
-      "@type": "ListItem",
-      "position": 2,
-      "name": "About Us"
+      "@type":"ListItem",
+      "position":2,
+      "name":"About Us",
+      "item":"https://smgold.shop/about.html"
     }
   ]
-}</script>
+}
+</script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
