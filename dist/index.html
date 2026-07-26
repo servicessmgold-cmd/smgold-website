@@ -37,62 +37,149 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Playfair+Display:wght@600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
+<!-- WebSite Schema -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "WebSite",
-  "name": "SM Gold Sargodha",
+  "@id": "https://smgold.shop/#website",
   "url": "https://smgold.shop/",
-  "potentialAction": {
-    "@type": "SearchAction",
-    "target": "https://smgold.shop/?s={search_term_string}",
-    "query-input": "required name=search_term_string"
-  }
+  "name": "SM Gold Sargodha",
+  "publisher": {
+    "@id": "https://smgold.shop/#organization"
+  },
+  "inLanguage": "en-PK"
 }
 </script>
+
+<!-- JewelryStore Schema -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "JewelryStore",
+  "@id": "https://smgold.shop/#organization",
   "name": "SM Gold Sargodha",
-  "image": "https://smgold.shop/images/hero-gold-jewelry.jpg",
+  "alternateName": "SM Gold",
   "url": "https://smgold.shop/",
+  "logo": "https://smgold.shop/images/logo.png",
+  "image": "https://smgold.shop/images/hero-gold-jewelry.jpg",
   "telephone": "+923236069069",
-  "priceRange": "5000 10000 20000 30000",
+  "email": "services.smgold@gmail.com",
   "foundingDate": "1985",
- "address": {
-  "@type": "PostalAddress",
-  "streetAddress": "1st Floor, Alfalah Market, Sarafa Bazar",
-  "addressLocality": "Sargodha",
-  "addressRegion": "Punjab",
-  "postalCode": "40100",
-  "addressCountry": "PK"
-},
-  "geo": { "@type": "GeoCoordinates", "latitude": 32.0833, "longitude": 72.6615 },
+  "priceRange": "₨₨₨",
+  "currenciesAccepted": "PKR",
+  "paymentAccepted": [
+    "Cash",
+    "Bank Transfer"
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "1st Floor, Alfalah Market, Sarafa Bazar",
+    "addressLocality": "Sargodha",
+    "addressRegion": "Punjab",
+    "postalCode": "40100",
+    "addressCountry": "PK"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 32.0833,
+    "longitude": 72.6615
+  },
   "openingHoursSpecification": {
     "@type": "OpeningHoursSpecification",
-    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
-    "opens": "00:00", "closes": "23:59"
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "opens": "00:00",
+    "closes": "23:59"
   },
-  "email": "Services.smgold@gmail.com",
-  "areaServed": "Sargodha, Punjab, Pakistan",
-  "makesOffer": [
-    {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Custom Gold Jewelry Making"}},
-    {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Bridal Gold Sets"}},
-    {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Gold Polishing & Repair"}},
-    {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Daily Wear Gold Collection"}}
+  "sameAs": [
+    "https://www.facebook.com/YOUR_PAGE",
+    "https://www.instagram.com/YOUR_PAGE",
+    "https://maps.google.com/?cid=YOUR_GOOGLE_BUSINESS_CID"
   ]
 }
 </script>
+
+<!-- WebPage Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": "https://smgold.shop/#webpage",
+  "url": "https://smgold.shop/",
+  "name": "SM Gold Sargodha | Best Goldsmith & Gold Jewelry Shop Since 1985",
+  "description": "SM Gold in Sarafa Bazar, Sargodha offering pure gold jewellery, bridal sets, custom jewellery, gold polishing and repair since 1985.",
+  "isPartOf": {
+    "@id": "https://smgold.shop/#website"
+  },
+  "about": {
+    "@id": "https://smgold.shop/#organization"
+  },
+  "inLanguage": "en-PK"
+}
+</script>
+
+<!-- FAQ Schema -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [
-    {"@type": "Question", "name": "What is today's gold rate in Sargodha?", "acceptedAnswer": {"@type": "Answer", "text": "SM Gold updates 24K, 22K, 21K and 18K gold rates daily. Rates are indicative; call or WhatsApp +92-323-6069069 for the exact live price."}},
-    {"@type": "Question", "name": "Is SM Gold jewelry 100% pure?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, every piece comes with a purity guarantee and certification, a promise upheld since 1985 in Sarafa Bazar, Sargodha."}},
-    {"@type": "Question", "name": "Does SM Gold make custom jewelry designs?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, our master craftsmen create bespoke gold jewelry including full bridal sets tailored to your design."}},
-    {"@type": "Question", "name": "What are SM Gold's shop timings?", "acceptedAnswer": {"@type": "Answer", "text": "SM Gold is open 24 hours a day, every day, for inquiries, viewings and WhatsApp orders."}}
+    {
+      "@type": "Question",
+      "name": "What is today's gold rate in Sargodha?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "SM Gold updates 24K, 22K, 21K and 18K gold rates daily. Rates are indicative; call or WhatsApp +92-323-6069069 for the exact live price."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is SM Gold jewelry 100% pure?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, every piece comes with a purity guarantee and certification, a promise upheld since 1985 in Sarafa Bazar, Sargodha."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does SM Gold make custom jewelry designs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, our master craftsmen create bespoke gold jewelry including full bridal sets tailored to your design."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are SM Gold's shop timings?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "SM Gold is open 24 hours a day, every day."
+      }
+    }
+  ]
+}
+</script>
+
+<!-- Breadcrumb Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://smgold.shop/"
+    }
   ]
 }
 </script>
