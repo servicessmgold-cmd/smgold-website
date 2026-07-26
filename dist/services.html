@@ -37,7 +37,74 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Playfair+Display:wght@600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
-<script type="application/ld+json">{
+<!-- CollectionPage Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "@id": "https://smgold.shop/services.html#webpage",
+  "url": "https://smgold.shop/services.html",
+  "name": "Jewelry Services | SM Gold Sargodha",
+  "description": "Professional gold jewellery services including custom jewellery making, bridal gold sets, gold polishing & repair, and daily wear collections in Sargodha.",
+  "isPartOf": {
+    "@id": "https://smgold.shop/#website"
+  },
+  "about": {
+    "@id": "https://smgold.shop/#organization"
+  },
+  "inLanguage": "en-PK"
+}
+</script>
+
+<!-- ItemList of Services -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "itemListElement": [
+    {
+      "@type": "Service",
+      "position": 1,
+      "name": "Custom Jewelry Making",
+      "url": "https://smgold.shop/custom-jewelry-making.html",
+      "provider": {
+        "@id": "https://smgold.shop/#organization"
+      }
+    },
+    {
+      "@type": "Service",
+      "position": 2,
+      "name": "Bridal Gold Sets",
+      "url": "https://smgold.shop/bridal-gold-sets.html",
+      "provider": {
+        "@id": "https://smgold.shop/#organization"
+      }
+    },
+    {
+      "@type": "Service",
+      "position": 3,
+      "name": "Gold Polishing & Repair",
+      "url": "https://smgold.shop/gold-polishing-repair.html",
+      "provider": {
+        "@id": "https://smgold.shop/#organization"
+      }
+    },
+    {
+      "@type": "Service",
+      "position": 4,
+      "name": "Daily Wear Collection",
+      "url": "https://smgold.shop/daily-wear-collection.html",
+      "provider": {
+        "@id": "https://smgold.shop/#organization"
+      }
+    }
+  ]
+}
+</script>
+
+<!-- Breadcrumb Schema -->
+<script type="application/ld+json">
+{
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
@@ -50,10 +117,12 @@
     {
       "@type": "ListItem",
       "position": 2,
-      "name": "Services"
+      "name": "Services",
+      "item": "https://smgold.shop/services.html"
     }
   ]
-}</script>
+}
+</script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
