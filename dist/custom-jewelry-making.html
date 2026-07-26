@@ -37,16 +37,58 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Playfair+Display:wght@600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
+<!-- Service Schema -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Service",
+  "@id": "https://smgold.shop/custom-jewelry-making.html#service",
+  "name": "Custom Jewelry Making",
   "serviceType": "Custom Jewelry Making",
-  "provider": {"@type": "JewelryStore", "name": "SM Gold Sargodha", "telephone": "+923236069069"},
-  "areaServed": {"@type": "City", "name": "Sargodha"},
-  "url": "https://smgold.shop/custom-jewelry-making.html"
+  "description": "SM Gold Sargodha offers custom gold jewellery making including rings, necklaces, bangles, bridal jewellery, pendants, earrings and personalized gold designs crafted by experienced goldsmiths since 1985.",
+  "url": "https://smgold.shop/custom-jewelry-making.html",
+  "provider": {
+    "@id": "https://smgold.shop/#organization"
+  },
+  "areaServed": {
+    "@type": "City",
+    "name": "Sargodha"
+  },
+  "availableLanguage": [
+    "English",
+    "Urdu"
+  ],
+  "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "priceCurrency": "PKR",
+    "url": "https://smgold.shop/contact.html"
+  }
 }
-</script><script type="application/ld+json">{
+</script>
+
+<!-- WebPage Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": "https://smgold.shop/custom-jewelry-making.html#webpage",
+  "url": "https://smgold.shop/custom-jewelry-making.html",
+  "name": "Custom Jewelry Making | SM Gold Sargodha",
+  "description": "Professional custom jewellery making in Sargodha including rings, bangles, necklaces, bridal jewellery and personalized gold designs.",
+  "isPartOf": {
+    "@id": "https://smgold.shop/#website"
+  },
+  "about": {
+    "@id": "https://smgold.shop/#organization"
+  },
+  "inLanguage": "en-PK"
+}
+</script>
+
+<!-- Breadcrumb Schema -->
+<script type="application/ld+json">
+{
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
@@ -65,10 +107,12 @@
     {
       "@type": "ListItem",
       "position": 3,
-      "name": "Custom Jewelry Making"
+      "name": "Custom Jewelry Making",
+      "item": "https://smgold.shop/custom-jewelry-making.html"
     }
   ]
-}</script>
+}
+</script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
