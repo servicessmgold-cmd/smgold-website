@@ -37,16 +37,58 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Playfair+Display:wght@600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
+<!-- Service Schema -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Service",
+  "@id": "https://smgold.shop/daily-wear-collection.html#service",
+  "name": "Daily Wear Collection",
   "serviceType": "Daily Wear Collection",
-  "provider": {"@type": "JewelryStore", "name": "SM Gold Sargodha", "telephone": "+923236069069"},
-  "areaServed": {"@type": "City", "name": "Sargodha"},
-  "url": "https://smgold.shop/daily-wear-collection.html"
+  "description": "SM Gold Sargodha offers elegant daily wear gold jewellery including rings, bangles, necklaces, bracelets, earrings, chains and lightweight gold accessories for everyday use.",
+  "url": "https://smgold.shop/daily-wear-collection.html",
+  "provider": {
+    "@id": "https://smgold.shop/#organization"
+  },
+  "areaServed": {
+    "@type": "City",
+    "name": "Sargodha"
+  },
+  "availableLanguage": [
+    "English",
+    "Urdu"
+  ],
+  "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "priceCurrency": "PKR",
+    "url": "https://smgold.shop/contact.html"
+  }
 }
-</script><script type="application/ld+json">{
+</script>
+
+<!-- WebPage Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": "https://smgold.shop/daily-wear-collection.html#webpage",
+  "url": "https://smgold.shop/daily-wear-collection.html",
+  "name": "Daily Wear Collection | SM Gold Sargodha",
+  "description": "Explore lightweight daily wear gold jewellery including rings, bangles, chains, bracelets, earrings and necklaces in Sargodha.",
+  "isPartOf": {
+    "@id": "https://smgold.shop/#website"
+  },
+  "about": {
+    "@id": "https://smgold.shop/#organization"
+  },
+  "inLanguage": "en-PK"
+}
+</script>
+
+<!-- Breadcrumb Schema -->
+<script type="application/ld+json">
+{
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
@@ -65,10 +107,12 @@
     {
       "@type": "ListItem",
       "position": 3,
-      "name": "Daily Wear Collection"
+      "name": "Daily Wear Collection",
+      "item": "https://smgold.shop/daily-wear-collection.html"
     }
   ]
-}</script>
+}
+</script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
