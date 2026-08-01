@@ -1,3 +1,5 @@
+google.com, pub-8145053547472214, DIRECT, f08c47fec0942fa0
+
 SM GOLD SARGODHA  FULL WEBSITE PACKAGE
 ==========================================
 
