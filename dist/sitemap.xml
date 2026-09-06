@@ -1,142 +1,202 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-  <url>
-    <loc>https://smgold.shop/</loc>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-  </url>
+    <!-- =========================
+         MAIN WEBSITE
+    ========================== -->
 
-  <url>
-    <loc>https://smgold.shop/gold-rate.html</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
+    <url>
+        <loc>https://smgold.shop/</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
 
-  <url>
-    <loc>https://smgold.shop/gold-rate-sargodha.html</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
+    <url>
+        <loc>https://smgold.shop/gold-rate.html</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.9</priority>
+    </url>
 
-  <url>
-    <loc>https://smgold.shop/gold-rate-today-sargodha.html</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
+    <url>
+        <loc>https://smgold.shop/services.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
 
-  <url>
-    <loc>https://smgold.shop/services.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
+    <url>
+        <loc>https://smgold.shop/gallery.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
 
-  <url>
-    <loc>https://smgold.shop/custom-jewelry-making.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
+    <url>
+        <loc>https://smgold.shop/about.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
 
-  <url>
-    <loc>https://smgold.shop/bridal-gold-sets.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
+    <url>
+        <loc>https://smgold.shop/faq.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
 
-  <url>
-    <loc>https://smgold.shop/gold-polishing-repair.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
+    <url>
+        <loc>https://smgold.shop/contact.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
 
-  <url>
-    <loc>https://smgold.shop/daily-wear-collection.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
 
-  <url>
-    <loc>https://smgold.shop/gallery.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
+    <!-- =========================
+         GOLD RATE PAGES
+    ========================== -->
 
-  <url>
-    <loc>https://smgold.shop/about.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
+    <url>
+        <loc>https://smgold.shop/gold-rate-sargodha.html</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.9</priority>
+    </url>
 
-  <url>
-    <loc>https://smgold.shop/faq.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
+    <url>
+        <loc>https://smgold.shop/gold-rate-today-sargodha.html</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.9</priority>
+    </url>
 
-  <url>
-    <loc>https://smgold.shop/contact.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
 
-  <url>
-    <loc>https://smgold.shop/blogs.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
+    <!-- =========================
+         SERVICES
+    ========================== -->
 
-  <url>
-    <loc>https://smgold.shop/blog-gold-rate-today-sargodha.html</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
+    <url>
+        <loc>https://smgold.shop/custom-jewelry-making.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
 
-  <url>
-    <loc>https://smgold.shop/blog-gold-rate-today-sargodha-21k.html</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
+    <url>
+        <loc>https://smgold.shop/bridal-gold-sets.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
 
-  <url>
-    <loc>https://smgold.shop/blog-gold-price-today-sargodha.html</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
+    <url>
+        <loc>https://smgold.shop/gold-polishing-repair.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
 
-  <url>
-    <loc>https://smgold.shop/blog-24-karat-vs-21-karat-gold.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
+    <url>
+        <loc>https://smgold.shop/daily-wear-collection.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
 
-  <url>
-    <loc>https://smgold.shop/blog-1-gram-gold-price-pakistan.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
 
-  <url>
-    <loc>https://smgold.shop/blog-best-bridal-jewellery-sargodha.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
+    <!-- =========================
+         BLOG SECTION
+    ========================== -->
 
-  <url>
-    <loc>https://smgold.shop/privacy-policy.html</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.2</priority>
-  </url>
+    <url>
+        <loc>https://smgold.shop/blogs.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
 
-  <url>
-    <loc>https://smgold.shop/terms-of-service.html</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.2</priority>
-  </url>
 
-  <url>
-    <loc>https://smgold.shop/sitemap.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.3</priority>
-  </url>
+    <!-- =========================
+         BLOG ARTICLE 1
+         Gold Rate Today Sargodha
+    ========================== -->
+
+    <url>
+        <loc>https://smgold.shop/blog-gold-rate-today-sargodha.html</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+
+    <!-- =========================
+         BLOG ARTICLE 2
+         Gold Rate Today Sargodha 21K
+    ========================== -->
+
+    <url>
+        <loc>https://smgold.shop/blog-gold-rate-today-sargodha-21k.html</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+
+    <!-- =========================
+         BLOG ARTICLE 3
+         Gold Price Today Sargodha
+    ========================== -->
+
+    <url>
+        <loc>https://smgold.shop/blog-gold-price-today-sargodha.html</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+
+    <!-- =========================
+         BLOG ARTICLE 4
+         24K vs 21K Gold
+    ========================== -->
+
+    <url>
+        <loc>https://smgold.shop/blog-24-karat-vs-21-karat-gold.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+
+    <!-- =========================
+         BLOG ARTICLE 5
+         1 Gram Gold Price Pakistan
+    ========================== -->
+
+    <url>
+        <loc>https://smgold.shop/blog-1-gram-gold-price-pakistan.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+
+    <!-- =========================
+         BLOG ARTICLE 6
+         Best Bridal Jewellery Sargodha
+    ========================== -->
+
+    <url>
+        <loc>https://smgold.shop/blog-best-bridal-jewellery-sargodha.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+
+    <!-- =========================
+         LEGAL / OTHER PAGES
+    ========================== -->
+
+    <url>
+        <loc>https://smgold.shop/privacy-policy.html</loc>
+        <changefreq>yearly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://smgold.shop/terms-of-service.html</loc>
+        <changefreq>yearly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://smgold.shop/sitemap.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.3</priority>
+    </url>
 
 </urlset>
