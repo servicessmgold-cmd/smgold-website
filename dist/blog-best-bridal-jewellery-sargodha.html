@@ -3,90 +3,150 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Best Bridal Jewellery Set in Sargodha | Beautiful Gold Jewellery Designs | SM Gold</title>
+    <title>Best Bridal Jewellery Set in Sargodha | Beautiful Jewellery Design | SM Gold</title>
 
-    <meta name="description" content="Discover the best bridal jewellery set in Sargodha. Learn how to choose bridal gold sets, necklaces, earrings, bangles and rings with beautiful jewellery designs for your wedding.">
+    <meta name="description" content="Discover the best bridal jewellery set in Sargodha. Learn how to choose beautiful gold jewellery designs, bridal necklaces, earrings, bangles and rings for your wedding.">
 
     <meta name="keywords" content="best bridal jewellery set, beautiful jewellery design, bridal jewellery Sargodha, bridal gold set, wedding jewellery, gold bridal set, bridal jewellery design Pakistan, bridal necklace, bridal earrings, bridal bangles, bridal rings, custom bridal jewellery, Sargodha jewellery">
 
     <meta name="author" content="SM Gold Jewellers Sargodha">
-
     <meta name="robots" content="index, follow">
 
     <link rel="canonical" href="https://smgold.shop/blog-best-bridal-jewellery-sargodha.html">
 
-    <link rel="icon" type="image/png" href="images/favicon.png">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/images/favicon.png">
 
-    <link rel="stylesheet" href="css/style.css">
+    <!-- MAIN WEBSITE CSS -->
+    <link rel="stylesheet" href="/css/style.css?v=20260905">
 
+    <!-- BLOG PAGE CSS -->
     <style>
-        .article-page {
-            background: #fffdf8;
+        /* ==============================
+           GENERAL BLOG STYLING
+        ============================== */
+
+        html {
+            scroll-behavior: smooth;
         }
 
+        body.article-page {
+            margin: 0;
+            padding: 0;
+            background: #fffdf8;
+            color: #222;
+            overflow-x: hidden;
+        }
+
+        .article-page *,
+        .article-page *::before,
+        .article-page *::after {
+            box-sizing: border-box;
+        }
+
+        .article-container {
+            width: min(1120px, calc(100% - 40px));
+            margin: 0 auto;
+        }
+
+        /* ==============================
+           BREADCRUMB
+        ============================== */
+
+        .blog-breadcrumb {
+            padding: 18px 0 0;
+            font-size: 14px;
+            line-height: 1.6;
+        }
+
+        .blog-breadcrumb a {
+            text-decoration: none;
+        }
+
+        .blog-breadcrumb span {
+            margin: 0 5px;
+        }
+
+        /* ==============================
+           HERO
+        ============================== */
+
         .article-hero {
-            min-height: 430px;
+            position: relative;
+            min-height: 470px;
+            margin-top: 15px;
             display: flex;
             align-items: center;
             justify-content: center;
-            position: relative;
-            background:
-                linear-gradient(rgba(0, 0, 0, 0.58), rgba(0, 0, 0, 0.58)),
-                url('images/hero-gold-jewelry.jpg') center/cover no-repeat;
             text-align: center;
-            padding: 80px 20px;
+            overflow: hidden;
+
+            background:
+                linear-gradient(
+                    rgba(0, 0, 0, 0.62),
+                    rgba(0, 0, 0, 0.62)
+                ),
+                url('/images/hero-gold-jewelry.jpg') center center / cover no-repeat;
         }
 
         .article-hero-content {
-            max-width: 900px;
+            width: min(900px, calc(100% - 30px));
             color: #fff;
+            padding: 70px 20px;
         }
 
-        .article-hero-content .eyebrow {
+        .article-eyebrow {
             display: inline-block;
-            margin-bottom: 15px;
             padding: 8px 18px;
-            border: 1px solid rgba(255,255,255,0.55);
-            border-radius: 30px;
+            border: 1px solid rgba(255,255,255,0.6);
+            border-radius: 999px;
             font-size: 14px;
-            letter-spacing: 0.5px;
+            letter-spacing: 0.6px;
+            margin-bottom: 18px;
+            background: rgba(255,255,255,0.08);
         }
 
         .article-hero h1 {
-            margin: 0 0 18px;
+            margin: 0 auto 18px;
+            max-width: 850px;
             font-size: clamp(34px, 5vw, 58px);
             line-height: 1.12;
+            color: #fff;
         }
 
-        .article-hero p {
-            max-width: 800px;
+        .article-hero-description {
+            max-width: 820px;
             margin: 0 auto 20px;
+            color: #fff;
             font-size: 18px;
             line-height: 1.8;
         }
 
         .article-meta {
             font-size: 14px;
-            opacity: 0.95;
+            line-height: 1.8;
+            color: rgba(255,255,255,0.95);
         }
 
+        /* ==============================
+           MAIN ARTICLE
+        ============================== */
+
         .article-wrapper {
-            width: min(1120px, calc(100% - 40px));
-            margin: 0 auto;
             padding: 70px 0;
         }
 
         .article-layout {
             display: grid;
             grid-template-columns: minmax(0, 1fr) 300px;
-            gap: 45px;
+            gap: 42px;
             align-items: start;
         }
 
         .article-content {
+            min-width: 0;
             background: #fff;
             border: 1px solid #eee6d6;
             border-radius: 18px;
@@ -95,41 +155,50 @@
         }
 
         .article-content h2 {
-            margin-top: 38px;
-            margin-bottom: 15px;
+            margin: 42px 0 16px;
             font-size: 30px;
             line-height: 1.3;
+            scroll-margin-top: 100px;
         }
 
         .article-content h3 {
-            margin-top: 28px;
-            margin-bottom: 12px;
+            margin: 28px 0 12px;
             font-size: 22px;
+            line-height: 1.4;
         }
 
         .article-content p {
             margin: 0 0 18px;
+            color: #333;
             font-size: 17px;
             line-height: 1.9;
-            color: #333;
         }
 
         .article-content ul,
         .article-content ol {
-            margin: 0 0 22px;
+            margin: 0 0 24px;
             padding-left: 25px;
         }
 
         .article-content li {
             margin-bottom: 10px;
-            line-height: 1.75;
             color: #333;
+            line-height: 1.8;
+        }
+
+        .article-content a {
+            text-decoration: underline;
+            text-underline-offset: 2px;
         }
 
         .article-intro {
             font-size: 19px !important;
             line-height: 1.9 !important;
         }
+
+        /* ==============================
+           HIGHLIGHT BOX
+        ============================== */
 
         .highlight-box {
             margin: 28px 0;
@@ -141,14 +210,23 @@
 
         .highlight-box strong {
             display: block;
-            margin-bottom: 7px;
+            margin-bottom: 8px;
+        }
+
+        /* ==============================
+           TABLE
+        ============================== */
+
+        .article-table-wrapper {
+            width: 100%;
+            overflow-x: auto;
+            margin: 25px 0 32px;
         }
 
         .info-table {
             width: 100%;
+            min-width: 650px;
             border-collapse: collapse;
-            margin: 25px 0 30px;
-            font-size: 15px;
         }
 
         .info-table th,
@@ -157,6 +235,7 @@
             padding: 14px;
             text-align: left;
             vertical-align: top;
+            line-height: 1.6;
         }
 
         .info-table th {
@@ -164,56 +243,33 @@
             font-weight: 700;
         }
 
+        /* ==============================
+           TIP CARDS
+        ============================== */
+
         .tip-card {
-            background: #faf8f2;
-            border: 1px solid #e7dfce;
-            border-radius: 14px;
+            margin: 24px 0;
             padding: 24px;
-            margin: 22px 0;
+            border: 1px solid #e7dfce;
+            background: #faf8f2;
+            border-radius: 14px;
         }
 
         .tip-card h3 {
             margin-top: 0;
         }
 
-        .sidebar {
-            position: sticky;
-            top: 90px;
+        .tip-card p:last-child {
+            margin-bottom: 0;
         }
 
-        .sidebar-card {
-            background: #fff;
-            border: 1px solid #eee6d6;
-            border-radius: 16px;
-            padding: 25px;
-            margin-bottom: 22px;
-            box-shadow: 0 8px 25px rgba(0,0,0,0.04);
-        }
-
-        .sidebar-card h3 {
-            margin-top: 0;
-            margin-bottom: 15px;
-            font-size: 21px;
-        }
-
-        .sidebar-card ul {
-            list-style: none;
-            margin: 0;
-            padding: 0;
-        }
-
-        .sidebar-card li {
-            margin-bottom: 12px;
-        }
-
-        .sidebar-card a {
-            text-decoration: none;
-            line-height: 1.5;
-        }
+        /* ==============================
+           CTA
+        ============================== */
 
         .cta-box {
             margin-top: 45px;
-            padding: 32px;
+            padding: 34px;
             border-radius: 18px;
             background: linear-gradient(135deg, #f8efcf, #fffaf0);
             border: 1px solid #dfcf9f;
@@ -227,17 +283,36 @@
             display: flex;
             flex-wrap: wrap;
             gap: 12px;
-            margin-top: 20px;
+            margin-top: 22px;
         }
 
         .cta-buttons a {
             display: inline-flex;
             align-items: center;
             justify-content: center;
+            min-height: 46px;
             padding: 12px 20px;
             border-radius: 8px;
             text-decoration: none;
             font-weight: 700;
+        }
+
+        .cta-whatsapp {
+            background: #25d366;
+            color: #fff !important;
+        }
+
+        .cta-call {
+            background: #222;
+            color: #fff !important;
+        }
+
+        /* ==============================
+           FAQ
+        ============================== */
+
+        .faq-section {
+            margin-top: 42px;
         }
 
         .faq-item {
@@ -250,76 +325,131 @@
         }
 
         .faq-item h3 {
-            margin: 0 0 8px;
+            margin: 0 0 10px;
         }
 
         .faq-item p {
             margin-bottom: 0;
         }
 
-        .breadcrumb {
-            width: min(1120px, calc(100% - 40px));
-            margin: 0 auto;
-            padding: 18px 0 0;
-            font-size: 14px;
+        /* ==============================
+           SIDEBAR
+        ============================== */
+
+        .article-sidebar {
+            position: sticky;
+            top: 90px;
         }
 
-        .breadcrumb a {
+        .sidebar-card {
+            margin-bottom: 22px;
+            padding: 25px;
+            background: #fff;
+            border: 1px solid #eee6d6;
+            border-radius: 16px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.04);
+        }
+
+        .sidebar-card h3 {
+            margin: 0 0 15px;
+            font-size: 21px;
+            line-height: 1.4;
+        }
+
+        .sidebar-card p {
+            margin: 0 0 14px;
+            color: #444;
+            line-height: 1.7;
+        }
+
+        .sidebar-card p:last-child {
+            margin-bottom: 0;
+        }
+
+        .sidebar-card ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        .sidebar-card li {
+            margin-bottom: 11px;
+        }
+
+        .sidebar-card li:last-child {
+            margin-bottom: 0;
+        }
+
+        .sidebar-card a {
             text-decoration: none;
+            line-height: 1.5;
         }
 
-        @media (max-width: 900px) {
+        /* ==============================
+           RESPONSIVE
+        ============================== */
+
+        @media (max-width: 950px) {
             .article-layout {
                 grid-template-columns: 1fr;
             }
 
-            .sidebar {
+            .article-sidebar {
                 position: static;
             }
         }
 
-        @media (max-width: 600px) {
-            .article-wrapper {
+        @media (max-width: 700px) {
+            .article-container {
                 width: min(100% - 24px, 1120px);
-                padding: 45px 0;
-            }
-
-            .article-content {
-                padding: 25px 20px;
             }
 
             .article-hero {
-                min-height: 390px;
-                padding: 65px 18px;
+                min-height: 410px;
             }
 
-            .article-hero p {
-                font-size: 16px;
+            .article-content {
+                padding: 27px 20px;
+                border-radius: 14px;
             }
 
             .article-content h2 {
                 font-size: 26px;
             }
 
+            .article-content h3 {
+                font-size: 21px;
+            }
+
             .article-content p {
                 font-size: 16px;
             }
 
-            .info-table {
-                display: block;
-                overflow-x: auto;
-                white-space: nowrap;
+            .article-intro {
+                font-size: 18px !important;
+            }
+
+            .cta-box {
+                padding: 25px 20px;
+            }
+
+            .cta-buttons {
+                flex-direction: column;
+            }
+
+            .cta-buttons a {
+                width: 100%;
             }
         }
     </style>
 
-    <!-- Article Schema -->
+    <!-- ARTICLE SCHEMA -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@type": "Article",
-        "headline": "Best Bridal Jewellery Set in Sargodha | Beautiful Gold Jewellery Designs",
-        "description": "A detailed guide to choosing the best bridal jewellery set in Sargodha, including bridal necklaces, earrings, bangles, rings and beautiful gold jewellery designs.",
+        "headline": "Best Bridal Jewellery Set in Sargodha | Beautiful Jewellery Design",
+        "description": "A detailed guide to choosing the best bridal jewellery set in Sargodha, including bridal necklaces, earrings, bangles, rings and beautiful jewellery designs.",
         "image": "https://smgold.shop/images/hero-gold-jewelry.jpg",
         "author": {
             "@type": "Organization",
@@ -342,7 +472,7 @@
     }
     </script>
 
-    <!-- FAQ Schema -->
+    <!-- FAQ SCHEMA -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
@@ -353,7 +483,7 @@
                 "name": "How do I choose the best bridal jewellery set?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Choose a bridal jewellery set according to your wedding dress, face shape, personal style, required pieces, gold purity, weight and budget. The best set should look balanced with the bridal outfit and remain comfortable to wear."
+                    "text": "Choose a bridal jewellery set according to your wedding dress, neckline, face shape, personal style, gold purity, weight, comfort and budget."
                 }
             },
             {
@@ -361,7 +491,7 @@
                 "name": "What jewellery is usually included in a bridal gold set?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "A bridal gold set may include a necklace, earrings, bangles, ring, tikka, jhumar or other matching pieces depending on the design and customer's requirements."
+                    "text": "A bridal gold set may include a necklace, earrings, bangles, ring, tikka, jhumar and other matching jewellery pieces depending on the design."
                 }
             },
             {
@@ -369,7 +499,7 @@
                 "name": "Where can I find bridal jewellery in Sargodha?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Customers looking for bridal jewellery in Sargodha can visit local jewellery markets and established jewellers such as SM Gold in Sarafa Bazar to discuss designs, purity, weight and customization."
+                    "text": "Customers searching for bridal jewellery in Sargodha can visit established jewellery shops and the city's jewellery markets, including SM Gold Jewellers in Sarafa Bazar."
                 }
             },
             {
@@ -377,7 +507,7 @@
                 "name": "Can bridal jewellery be customized?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Yes. Bridal jewellery can be customized according to necklace length, design details, gold purity, stones, matching pieces, weight and budget."
+                    "text": "Yes. Bridal jewellery can be customized according to the bride's preferred design, necklace length, gold purity, weight, stones and matching requirements."
                 }
             },
             {
@@ -385,7 +515,7 @@
                 "name": "How can I choose a beautiful jewellery design for my wedding?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Start with your bridal dress, neckline, wedding style and preferred gold finish. Then select a jewellery design that complements the outfit instead of competing with it."
+                    "text": "Choose a jewellery design that complements your dress, neckline, embroidery, hairstyle, face shape and overall wedding style."
                 }
             }
         ]
@@ -395,109 +525,172 @@
 
 <body class="article-page">
 
-    <!-- TOP UTILITY BAR -->
+    <!-- ==============================
+         TOP UTILITY BAR
+    ============================== -->
     <div class="top-bar">
         <div class="container">
+
             <div class="top-bar-content">
+
                 <span>GOLD 24K</span>
-                <a href="gold-rate.html">Check Live Rate</a>
+                <a href="/gold-rate.html">Check Live Rate</a>
+
                 <span>GOLD 22K</span>
-                <a href="gold-rate.html">Check Live Rate</a>
+                <a href="/gold-rate.html">Check Live Rate</a>
+
                 <span>GOLD 21K</span>
-                <a href="gold-rate.html">Check Live Rate</a>
+                <a href="/gold-rate.html">Check Live Rate</a>
+
                 <span>GOLD 18K</span>
-                <a href="gold-rate.html">Check Live Rate</a>
+                <a href="/gold-rate.html">Check Live Rate</a>
+
             </div>
+
         </div>
     </div>
 
-    <!-- HEADER -->
+    <!-- ==============================
+         MAIN HEADER
+    ============================== -->
     <header class="main-header">
+
         <div class="container">
+
             <div class="header-content">
 
+                <!-- LOGO -->
                 <div class="logo">
-                    <a href="index.html">
-                        <img src="images/logo.png" alt="SM Gold Jewellers Sargodha" loading="eager">
+                    <a href="/index.html">
+                        <img
+                            src="/images/logo.png"
+                            alt="SM Gold Jewellers Sargodha"
+                            loading="eager">
                     </a>
                 </div>
 
-                <nav class="main-nav">
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
+                <!-- NAVIGATION -->
+                <nav class="main-nav" aria-label="Main Navigation">
 
-                        <li><a href="gold-rate.html">Gold Rate</a></li>
+                    <ul>
+
+                        <li>
+                            <a href="/index.html">
+                                Home
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="/gold-rate.html">
+                                Gold Rate
+                            </a>
+                        </li>
 
                         <li class="dropdown">
-                            <a href="services.html">Services</a>
+
+                            <a href="/services.html">
+                                Services
+                            </a>
+
                             <ul class="dropdown-menu">
+
                                 <li>
-                                    <a href="custom-jewelry-making.html">
+                                    <a href="/custom-jewelry-making.html">
                                         Custom Jewelry Making
                                     </a>
                                 </li>
 
                                 <li>
-                                    <a href="bridal-gold-sets.html">
+                                    <a href="/bridal-gold-sets.html">
                                         Bridal Gold Sets
                                     </a>
                                 </li>
 
                                 <li>
-                                    <a href="gold-polishing-repair.html">
+                                    <a href="/gold-polishing-repair.html">
                                         Gold Polishing &amp; Repair
                                     </a>
                                 </li>
 
                                 <li>
-                                    <a href="daily-wear-collection.html">
+                                    <a href="/daily-wear-collection.html">
                                         Daily Wear Collection
                                     </a>
                                 </li>
 
                                 <li>
-                                    <a href="gold-rate-today-sargodha.html">
+                                    <a href="/gold-rate-today-sargodha.html">
                                         Gold Rate Today Sargodha
                                     </a>
                                 </li>
+
                             </ul>
+
                         </li>
 
-                        <li><a href="gallery.html">Gallery</a></li>
-
-                        <li><a href="about.html">About</a></li>
-
-                        <li><a href="contact.html">Contact</a></li>
+                        <li>
+                            <a href="/gallery.html">
+                                Gallery
+                            </a>
+                        </li>
 
                         <li>
-                            <a class="nav-whatsapp"
-                               href="https://wa.me/923236069069"
-                               target="_blank"
-                               rel="noopener">
+                            <a href="/about.html">
+                                About
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="/contact.html">
+                                Contact
+                            </a>
+                        </li>
+
+                        <li>
+                            <a
+                                class="nav-whatsapp"
+                                href="https://wa.me/923236069069"
+                                target="_blank"
+                                rel="noopener">
                                 WhatsApp Us
                             </a>
                         </li>
+
                     </ul>
+
                 </nav>
 
             </div>
+
         </div>
+
     </header>
 
-    <!-- BREADCRUMB -->
-    <div class="breadcrumb">
-        <a href="index.html">Home</a>
-        <span> / </span>
-        <a href="blogs.html">Gold Jewellery Blog</a>
-        <span> / </span>
+    <!-- ==============================
+         BREADCRUMB
+    ============================== -->
+    <div class="article-container blog-breadcrumb">
+
+        <a href="/index.html">Home</a>
+
+        <span>/</span>
+
+        <a href="/blogs.html">Gold Jewellery Blog</a>
+
+        <span>/</span>
+
         <span>Best Bridal Jewellery Set in Sargodha</span>
+
     </div>
 
-    <!-- HERO -->
+    <!-- ==============================
+         HERO
+    ============================== -->
     <section class="article-hero">
+
         <div class="article-hero-content">
 
-            <div class="eyebrow">
+            <div class="article-eyebrow">
                 Bridal Jewellery Guide
             </div>
 
@@ -505,744 +698,1005 @@
                 Best Bridal Jewellery Set in Sargodha
             </h1>
 
-            <p>
-                How to choose a beautiful bridal gold set, necklace, earrings,
-                bangles and rings that complement your wedding dress, personal
-                style and budget.
+            <p class="article-hero-description">
+                Discover how to choose a beautiful bridal gold set,
+                necklace, earrings, bangles and rings that complement
+                your wedding dress, personal style and budget.
             </p>
 
             <div class="article-meta">
-                📍 Sargodha, Pakistan &nbsp; | &nbsp;
-                📅 Updated September 2026 &nbsp; | &nbsp;
+                📍 Sargodha, Pakistan
+                &nbsp; | &nbsp;
+                📅 Updated September 2026
+                &nbsp; | &nbsp;
                 💍 SM Gold Jewellers
             </div>
 
         </div>
+
     </section>
 
-    <!-- ARTICLE AREA -->
+    <!-- ==============================
+         ARTICLE SECTION
+    ============================== -->
     <main class="article-wrapper">
 
-        <div class="article-layout">
-
-            <!-- MAIN CONTENT -->
-            <article class="article-content">
-
-                <p class="article-intro">
-                    Your wedding day is one of the most important occasions of your life,
-                    and bridal jewellery plays a major role in completing your overall look.
-                    Choosing the <strong>best bridal jewellery set</strong> is not only about
-                    selecting an attractive design. The right set should match your bridal
-                    dress, suit your personal style, fit comfortably, reflect your preferred
-                    gold purity and stay within your budget.
-                </p>
-
-                <p>
-                    For brides searching for <strong>bridal jewellery in Sargodha</strong>,
-                    there are many styles to consider, from traditional gold sets and detailed
-                    necklaces to modern minimalist combinations. A carefully selected set can
-                    make the bridal outfit look more balanced while allowing each jewellery
-                    piece to complement the others.
-                </p>
-
-                <div class="highlight-box">
-                    <strong>Important bridal jewellery tip:</strong>
-                    Do not select a jewellery set only because it looks beautiful in a photo.
-                    Consider the neckline of your dress, the embroidery, your face shape,
-                    the colour of the outfit, the required gold weight, comfort and the total
-                    purchase budget.
-                </div>
-
-                <h2>What Makes the Best Bridal Jewellery Set?</h2>
-
-                <p>
-                    The best bridal jewellery set is one that brings together design,
-                    proportion, comfort and practicality. Every bride has different
-                    preferences, so there is no single design that is perfect for everyone.
-                </p>
-
-                <p>
-                    A bridal set may look stunning on display but still feel unsuitable
-                    when paired with a heavily embroidered dress. Likewise, a very delicate
-                    jewellery design may disappear against a heavily decorated bridal outfit.
-                    The goal is to create a balanced appearance.
-                </p>
-
-                <h3>Key factors to consider</h3>
-
-                <ul>
-                    <li>Wedding dress colour and embroidery</li>
-                    <li>Neckline and overall dress shape</li>
-                    <li>Face shape and preferred earring style</li>
-                    <li>Gold purity and total gold weight</li>
-                    <li>Traditional or modern design preference</li>
-                    <li>Number of jewellery pieces required</li>
-                    <li>Comfort during long wedding functions</li>
-                    <li>Total jewellery budget</li>
-                    <li>Possibility of future everyday use</li>
-                </ul>
-
-                <h2>Popular Bridal Gold Jewellery Pieces</h2>
-
-                <p>
-                    A complete <strong>bridal gold set</strong> can include different jewellery
-                    pieces depending on the wedding style and personal preference.
-                    Some brides prefer a complete traditional collection, while others
-                    choose selected pieces and combine them with custom designs.
-                </p>
-
-                <table class="info-table">
-                    <thead>
-                        <tr>
-                            <th>Jewellery Piece</th>
-                            <th>Purpose</th>
-                            <th>Design Consideration</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Bridal Necklace</td>
-                            <td>Creates the main focal point</td>
-                            <td>Match necklace length and style with the neckline</td>
-                        </tr>
-
-                        <tr>
-                            <td>Bridal Earrings</td>
-                            <td>Frames the face</td>
-                            <td>Select size according to face shape and hairstyle</td>
-                        </tr>
-
-                        <tr>
-                            <td>Gold Bangles</td>
-                            <td>Adds traditional bridal elegance</td>
-                            <td>Choose a balanced combination of widths and patterns</td>
-                        </tr>
-
-                        <tr>
-                            <td>Bridal Ring</td>
-                            <td>Adds detail to the hands</td>
-                            <td>Coordinate the design with bangles and other jewellery</td>
-                        </tr>
-
-                        <tr>
-                            <td>Tikka / Head Jewellery</td>
-                            <td>Completes the traditional bridal appearance</td>
-                            <td>Should work with hairstyle and forehead shape</td>
-                        </tr>
-                    </tbody>
-                </table>
-
-                <h2>How to Choose a Beautiful Jewellery Design</h2>
-
-                <p>
-                    Searching for a <strong>beautiful jewellery design</strong> is easy because
-                    there are countless designs available online and in jewellery markets.
-                    The more important challenge is finding a design that works specifically
-                    for your wedding outfit.
-                </p>
-
-                <p>
-                    Start by looking at the dress first. Examine its neckline, embroidery,
-                    colours and overall level of detail. If the outfit is highly detailed,
-                    a carefully proportioned jewellery set may provide a better result than
-                    an overly crowded design.
-                </p>
-
-                <div class="tip-card">
-                    <h3>Design Matching Tip</h3>
-                    <p>
-                        Take photographs of your bridal dress or fabric when visiting a
-                        jeweller. This can make it easier to compare the gold colour,
-                        necklace proportions and decorative details with the outfit.
-                    </p>
-                </div>
-
-                <h2>Bridal Necklace Styles</h2>
-
-                <p>
-                    The necklace is often the central piece of a bridal jewellery collection.
-                    Traditional brides may prefer broader gold designs with detailed patterns,
-                    while modern brides may choose refined necklaces with a lighter appearance.
-                </p>
-
-                <h3>Traditional bridal necklaces</h3>
-
-                <p>
-                    Traditional designs often feature detailed gold work, layered patterns,
-                    classic motifs and a stronger visual presence. These designs can work
-                    particularly well with traditional bridal dresses and formal wedding
-                    events.
-                </p>
-
-                <h3>Modern bridal necklaces</h3>
-
-                <p>
-                    Modern designs may focus on cleaner shapes, simpler lines and lighter
-                    visual detailing. They can be suitable for brides who want a polished
-                    appearance while keeping the jewellery more versatile.
-                </p>
-
-                <h2>Choosing Bridal Earrings</h2>
-
-                <p>
-                    Earrings should complement both the necklace and the bride's face.
-                    Larger earrings can create a strong traditional appearance, while
-                    medium-sized designs may offer a more balanced option when the necklace
-                    is already detailed.
-                </p>
-
-                <p>
-                    Consider the hairstyle as well. Updos and pulled-back hairstyles can
-                    provide more visibility for statement earrings, while other hairstyles
-                    may work better with shorter or more structured pieces.
-                </p>
-
-                <h2>Gold Bangles for Bridal Wear</h2>
-
-                <p>
-                    Bangles are an important part of traditional bridal jewellery. Many
-                    brides prefer a combination of different bangle patterns rather than
-                    using a single repeated design.
-                </p>
-
-                <p>
-                    The goal is to create a coordinated look without making the wrist area
-                    unnecessarily heavy. Consider your dress sleeves, wrist size, comfort
-                    and the overall jewellery theme when selecting bridal bangles.
-                </p>
-
-                <h2>How Gold Purity Affects Bridal Jewellery</h2>
-
-                <p>
-                    Gold purity is another important part of the buying decision. Gold
-                    jewellery is available in different karats, and the karat indicates
-                    the proportion of pure gold in the alloy.
-                </p>
-
-                <table class="info-table">
-                    <thead>
-                        <tr>
-                            <th>Purity</th>
-                            <th>Approx. Gold Content</th>
-                            <th>General Consideration</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>24K</td>
-                            <td>Approximately 99.9%</td>
-                            <td>Very high purity; commonly used as a market benchmark</td>
-                        </tr>
-
-                        <tr>
-                            <td>22K</td>
-                            <td>Approximately 91.6%</td>
-                            <td>High gold content and commonly associated with jewellery</td>
-                        </tr>
-
-                        <tr>
-                            <td>21K</td>
-                            <td>Approximately 87.5%</td>
-                            <td>A commonly considered jewellery purity in Pakistan</td>
-                        </tr>
-
-                        <tr>
-                            <td>18K</td>
-                            <td>Approximately 75%</td>
-                            <td>Lower gold content with more alloy proportion</td>
-                        </tr>
-                    </tbody>
-                </table>
-
-                <p>
-                    Before purchasing a bridal set, always ask the jeweller to explain
-                    the purity, weight and pricing method. This helps you compare different
-                    designs accurately.
-                </p>
-
-                <h2>Bridal Jewellery and Gold Weight</h2>
-
-                <p>
-                    Two bridal jewellery sets can look similar while having different gold
-                    weights. Design structure, thickness, dimensions and workmanship can
-                    all affect the total weight.
-                </p>
-
-                <p>
-                    Instead of comparing only the appearance, ask for the approximate or
-                    exact weight of each major piece. This makes it easier to understand
-                    where your budget is being allocated.
-                </p>
-
-                <h2>How to Choose Bridal Jewellery According to Your Dress</h2>
-
-                <h3>Heavy embroidered dress</h3>
-
-                <p>
-                    A heavily decorated dress often requires careful jewellery selection.
-                    Too many competing details can make the overall look appear crowded.
-                    A strong central necklace with coordinated earrings and bangles may
-                    create better visual balance.
-                </p>
-
-                <h3>Minimal or elegant bridal dress</h3>
-
-                <p>
-                    A simpler dress provides more freedom to use a statement jewellery
-                    design. Detailed gold work can become the main visual feature while
-                    the dress provides a cleaner background.
-                </p>
-
-                <h3>Traditional bridal outfit</h3>
-
-                <p>
-                    Traditional outfits often pair naturally with classic gold jewellery,
-                    including detailed necklaces, earrings, bangles, rings and head
-                    jewellery.
-                </p>
-
-                <h3>Modern bridal outfit</h3>
-
-                <p>
-                    A modern bridal outfit can work beautifully with refined jewellery
-                    designs, lighter sets or customized pieces that combine traditional
-                    craftsmanship with contemporary shapes.
-                </p>
-
-                <h2>Traditional vs Modern Bridal Jewellery</h2>
-
-                <table class="info-table">
-                    <thead>
-                        <tr>
-                            <th>Style</th>
-                            <th>Typical Look</th>
-                            <th>Best For</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Traditional</td>
-                            <td>Detailed, classic and rich in visual patterns</td>
-                            <td>Traditional weddings and classic bridal dresses</td>
-                        </tr>
-
-                        <tr>
-                            <td>Modern</td>
-                            <td>Cleaner, refined and more minimal</td>
-                            <td>Contemporary outfits and modern bridal styling</td>
-                        </tr>
-
-                        <tr>
-                            <td>Customized</td>
-                            <td>Designed around the bride's preferences</td>
-                            <td>Unique requirements, matching outfits and personal designs</td>
-                        </tr>
-                    </tbody>
-                </table>
-
-                <h2>Why Customized Bridal Jewellery Can Be a Better Choice</h2>
-
-                <p>
-                    Ready-made jewellery is convenient, but customization can provide a
-                    stronger match when a bride has specific requirements. A customized
-                    bridal set can be designed around the neckline, preferred necklace
-                    length, gold purity, desired weight and selected decorative details.
-                </p>
-
-                <p>
-                    Brides can also create matching combinations instead of purchasing
-                    every item from unrelated collections.
-                </p>
-
-                <p>
-                    For customers interested in this approach, see our
-                    <a href="custom-jewelry-making.html">Custom Jewelry Making</a>
-                    service for more information.
-                </p>
-
-                <h2>How to Choose the Right Bridal Jewellery Budget</h2>
-
-                <p>
-                    The total cost of bridal jewellery depends on several factors, including
-                    gold purity, gold weight, design, workmanship, stones and other applicable
-                    charges.
-                </p>
-
-                <p>
-                    Before beginning the final selection, decide how much of your budget
-                    should be allocated to the necklace, earrings, bangles, rings and any
-                    additional pieces.
-                </p>
-
-                <ul>
-                    <li>Set an overall jewellery budget first.</li>
-                    <li>Decide which pieces are essential.</li>
-                    <li>Choose the preferred gold purity.</li>
-                    <li>Compare the weight of similar designs.</li>
-                    <li>Ask about workmanship and additional charges.</li>
-                    <li>Keep some flexibility for customization if required.</li>
-                </ul>
-
-                <h2>Bridal Jewellery Shopping Tips in Sargodha</h2>
-
-                <p>
-                    Customers searching for <strong>bridal jewellery Sargodha</strong> should
-                    compare jewellery based on the same factors rather than appearance alone.
-                    A price comparison is meaningful only when purity, weight and other
-                    charges are being compared consistently.
-                </p>
-
-                <h3>Ask about purity</h3>
-
-                <p>
-                    Confirm whether the jewellery is 24K, 22K, 21K, 18K or another specified
-                    purity before comparing prices.
-                </p>
-
-                <h3>Ask about weight</h3>
-
-                <p>
-                    Weight is one of the most important elements of a gold jewellery price.
-                    Ask for the weight of individual pieces or the complete set where possible.
-                </p>
-
-                <h3>Ask about workmanship</h3>
-
-                <p>
-                    Detailed bridal designs may involve additional craftsmanship charges.
-                    Understand these charges before placing the final order.
-                </p>
-
-                <h3>Check the final amount</h3>
-
-                <p>
-                    Do not compare only a headline gold rate. Ask for the complete final
-                    amount for the finished jewellery item or set.
-                </p>
-
-                <h2>Why Brides Should Think About Comfort</h2>
-
-                <p>
-                    Wedding functions can continue for many hours, especially when mehndi,
-                    baraat, walima and family events are involved. Jewellery that is
-                    attractive but uncomfortable may become difficult to wear throughout
-                    the celebration.
-                </p>
-
-                <p>
-                    When selecting a bridal set, consider the weight of earrings, the
-                    necklace fit, the bangle size and whether individual pieces remain
-                    secure during movement.
-                </p>
-
-                <h2>Bridal Jewellery Maintenance After the Wedding</h2>
-
-                <p>
-                    Once the wedding celebrations are complete, proper care can help
-                    preserve the appearance of your jewellery.
-                </p>
-
-                <ul>
-                    <li>Store pieces separately where practical.</li>
-                    <li>Keep jewellery away from unnecessary moisture and chemicals.</li>
-                    <li>Avoid direct contact with perfumes and harsh cleaning products.</li>
-                    <li>Use suitable jewellery storage to reduce scratching.</li>
-                    <li>Have worn or damaged pieces checked by a professional jeweller.</li>
-                </ul>
-
-                <p>
-                    When jewellery becomes dull or requires maintenance, you can also explore
-                    our <a href="gold-polishing-repair.html">Gold Polishing &amp; Repair</a>
-                    service.
-                </p>
-
-                <h2>Best Bridal Jewellery Set: A Practical Selection Checklist</h2>
-
-                <p>
-                    Before finalizing your bridal jewellery, use this checklist to make the
-                    buying process easier:
-                </p>
-
-                <ol>
-                    <li>Finalize your bridal dress and neckline.</li>
-                    <li>Decide whether you prefer traditional, modern or customized jewellery.</li>
-                    <li>Select the required jewellery pieces.</li>
-                    <li>Confirm the preferred gold purity.</li>
-                    <li>Compare expected gold weight.</li>
-                    <li>Check workmanship and other applicable charges.</li>
-                    <li>Try to assess comfort and fit.</li>
-                    <li>Review the final amount before confirming the purchase.</li>
-                </ol>
-
-                <h2>Bridal Jewellery in Sargodha from SM Gold</h2>
-
-                <p>
-                    SM Gold Jewellers serves customers in Sargodha with gold jewellery,
-                    bridal jewellery, custom jewellery and related services. Customers can
-                    discuss bridal designs, gold purity, approximate weight, customization
-                    requirements and available options before finalizing their purchase.
-                </p>
-
-                <p>
-                    Our location in <strong>Sarafa Bazar, Sargodha</strong> makes it convenient
-                    for local customers to discuss their wedding jewellery requirements
-                    directly.
-                </p>
-
-                <p>
-                    You can also explore our
-                    <a href="bridal-gold-sets.html">Bridal Gold Sets</a>
-                    service for more information about bridal jewellery options.
-                </p>
-
-                <div class="cta-box">
-
-                    <h2>Looking for the Best Bridal Jewellery Set in Sargodha?</h2>
-
-                    <p>
-                        Speak with SM Gold about bridal necklaces, earrings, bangles,
-                        rings, complete bridal sets and customized jewellery designs.
-                        Confirm purity, weight, design options and the applicable quotation
-                        before making your final decision.
+        <div class="article-container">
+
+            <div class="article-layout">
+
+                <!-- ==============================
+                     MAIN ARTICLE CONTENT
+                ============================== -->
+                <article class="article-content">
+
+                    <p class="article-intro">
+                        Your wedding day is one of the most memorable occasions
+                        of your life, and bridal jewellery plays an important role
+                        in completing your overall appearance. Choosing the
+                        <strong>best bridal jewellery set</strong> is not only
+                        about finding an attractive design. The jewellery should
+                        also complement your bridal dress, suit your personal style,
+                        feel comfortable to wear and fit within your jewellery budget.
                     </p>
 
-                    <div class="cta-buttons">
+                    <p>
+                        Brides searching for
+                        <strong>bridal jewellery in Sargodha</strong>
+                        have many options to consider. From traditional gold
+                        jewellery and detailed bridal necklaces to modern
+                        designs and customized jewellery, the right choice depends
+                        on the dress, wedding function, preferred look, gold purity,
+                        required weight and overall budget.
+                    </p>
 
-                        <a href="https://wa.me/923236069069"
-                           target="_blank"
-                           rel="noopener"
-                           class="btn btn-primary">
-                            💬 WhatsApp SM Gold
-                        </a>
+                    <div class="highlight-box">
+                        <strong>Important bridal jewellery tip:</strong>
 
-                        <a href="tel:+923236069069"
-                           class="btn btn-secondary">
-                            📞 Call 0323 6069069
-                        </a>
+                        Do not select a bridal set only because it looks attractive
+                        in a photograph. Always consider your dress neckline,
+                        embroidery, face shape, hairstyle, jewellery weight,
+                        comfort and budget before making the final decision.
+                    </div>
+
+                    <!-- SECTION 1 -->
+                    <h2 id="best-bridal-jewellery">
+                        What Makes the Best Bridal Jewellery Set?
+                    </h2>
+
+                    <p>
+                        The best bridal jewellery set combines beauty, proportion,
+                        comfort and practicality. Every bride has different
+                        preferences, so there is no single jewellery style that
+                        works perfectly for everyone.
+                    </p>
+
+                    <p>
+                        A jewellery set should work together as a complete look.
+                        The necklace, earrings, bangles and rings should complement
+                        each other instead of making the bridal appearance look
+                        unnecessarily crowded.
+                    </p>
+
+                    <h3>Important factors to consider</h3>
+
+                    <ul>
+                        <li>Colour and design of the bridal dress</li>
+                        <li>Dress neckline and embroidery</li>
+                        <li>Face shape and preferred earring style</li>
+                        <li>Gold purity and total jewellery weight</li>
+                        <li>Traditional or modern design preference</li>
+                        <li>Number of jewellery pieces required</li>
+                        <li>Comfort during long wedding functions</li>
+                        <li>Total jewellery budget</li>
+                        <li>Possibility of wearing selected pieces after the wedding</li>
+                    </ul>
+
+                    <!-- SECTION 2 -->
+                    <h2>
+                        Popular Bridal Gold Jewellery Pieces
+                    </h2>
+
+                    <p>
+                        A complete <strong>bridal gold set</strong> can include
+                        several jewellery pieces depending on the bride's style
+                        and wedding requirements. Some brides prefer a complete
+                        traditional collection, while others select individual
+                        pieces and combine them into a coordinated set.
+                    </p>
+
+                    <div class="article-table-wrapper">
+
+                        <table class="info-table">
+
+                            <thead>
+                                <tr>
+                                    <th>Jewellery Piece</th>
+                                    <th>Main Purpose</th>
+                                    <th>Design Consideration</th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+
+                                <tr>
+                                    <td>Bridal Necklace</td>
+                                    <td>
+                                        Creates the main focal point of the bridal look.
+                                    </td>
+                                    <td>
+                                        Match necklace style and length with the neckline.
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>Bridal Earrings</td>
+                                    <td>
+                                        Frames the bride's face.
+                                    </td>
+                                    <td>
+                                        Select the size according to face shape,
+                                        hairstyle and necklace design.
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>Gold Bangles</td>
+                                    <td>
+                                        Adds traditional bridal elegance.
+                                    </td>
+                                    <td>
+                                        Combine patterns and widths in a balanced way.
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>Bridal Ring</td>
+                                    <td>
+                                        Adds detail to the hands.
+                                    </td>
+                                    <td>
+                                        Coordinate the ring with bangles and other jewellery.
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>Tikka / Head Jewellery</td>
+                                    <td>
+                                        Completes a traditional bridal appearance.
+                                    </td>
+                                    <td>
+                                        Consider hairstyle and overall head jewellery design.
+                                    </td>
+                                </tr>
+
+                            </tbody>
+
+                        </table>
 
                     </div>
 
-                </div>
+                    <!-- SECTION 3 -->
+                    <h2>
+                        How to Choose a Beautiful Jewellery Design
+                    </h2>
 
-                <h2>Frequently Asked Questions</h2>
-
-                <div class="faq-item">
-                    <h3>How do I choose the best bridal jewellery set?</h3>
                     <p>
-                        Choose according to your wedding dress, neckline, face shape,
-                        preferred style, gold purity, weight, comfort and budget. A good
-                        bridal set should complement your overall appearance.
+                        Searching for a
+                        <strong>beautiful jewellery design</strong>
+                        can be exciting because there are many traditional and
+                        modern jewellery styles available. However, the most
+                        attractive design is not always the best choice for every
+                        bridal outfit.
                     </p>
-                </div>
 
-                <div class="faq-item">
-                    <h3>What jewellery is usually included in a bridal gold set?</h3>
                     <p>
-                        A bridal set may include a necklace, earrings, bangles, ring,
-                        tikka, jhumar and other matching pieces depending on the selected
-                        design and requirements.
+                        Start with the bridal dress. Look at the neckline,
+                        embroidery, fabric, colours and overall level of decoration.
+                        Then select a jewellery design that complements those
+                        elements.
                     </p>
-                </div>
 
-                <div class="faq-item">
-                    <h3>Where can I find bridal jewellery in Sargodha?</h3>
+                    <div class="tip-card">
+
+                        <h3>
+                            Design Matching Tip
+                        </h3>
+
+                        <p>
+                            When visiting a jeweller, take photographs of your
+                            bridal dress or fabric. Seeing the dress alongside
+                            the jewellery can make it easier to evaluate colour,
+                            proportions and overall balance.
+                        </p>
+
+                    </div>
+
+                    <!-- SECTION 4 -->
+                    <h2 id="bridal-necklace">
+                        Bridal Necklace Styles
+                    </h2>
+
                     <p>
-                        You can explore established jewellery shops and local jewellery
-                        markets in Sargodha. SM Gold is located at 1st Floor, Alfalah
-                        Market, Sarafa Bazar, Sargodha.
+                        The bridal necklace is often the central piece of a
+                        jewellery collection. It can determine the overall visual
+                        style of the bridal look.
                     </p>
-                </div>
 
-                <div class="faq-item">
-                    <h3>Can bridal jewellery be customized?</h3>
+                    <h3>
+                        Traditional bridal necklaces
+                    </h3>
+
                     <p>
-                        Yes. Bridal jewellery can be customized around the preferred
-                        necklace style, dimensions, gold purity, weight, stones and
-                        matching requirements.
+                        Traditional bridal necklaces often feature detailed gold
+                        work, layered designs and classic decorative patterns.
+                        They can work particularly well with traditional Pakistani
+                        bridal dresses and formal wedding events.
                     </p>
-                </div>
 
-                <div class="faq-item">
-                    <h3>How can I choose a beautiful jewellery design for my wedding?</h3>
+                    <h3>
+                        Modern bridal necklaces
+                    </h3>
+
                     <p>
-                        Start with your wedding dress, neckline, embroidery and overall
-                        style. Select jewellery that complements the outfit and maintains
-                        a balanced appearance instead of competing with it.
+                        Modern designs often focus on cleaner shapes, refined
+                        detailing and a lighter visual appearance. They can be
+                        suitable for brides who prefer elegant jewellery with
+                        contemporary styling.
                     </p>
-                </div>
 
-                <h2>Related SM Gold Resources</h2>
+                    <!-- SECTION 5 -->
+                    <h2>
+                        Choosing Bridal Earrings
+                    </h2>
 
-                <p>
-                    Continue exploring SM Gold's jewellery and gold information:
-                </p>
+                    <p>
+                        Earrings should work with both the bridal necklace and
+                        the bride's face shape. Larger earrings can create a
+                        traditional statement, while medium-sized designs may
+                        provide a more balanced appearance when the necklace
+                        already contains substantial detail.
+                    </p>
 
-                <ul>
-                    <li>
-                        <a href="gold-rate-today-sargodha.html">
-                            Gold Rate Today Sargodha
-                        </a>
-                    </li>
+                    <p>
+                        Hairstyle also matters. Pulled-back hairstyles may provide
+                        more visibility for statement earrings, while other
+                        hairstyles can pair better with shorter or more structured
+                        designs.
+                    </p>
 
-                    <li>
-                        <a href="bridal-gold-sets.html">
-                            Bridal Gold Sets
-                        </a>
-                    </li>
+                    <!-- SECTION 6 -->
+                    <h2 id="gold-bangles">
+                        Gold Bangles for Bridal Wear
+                    </h2>
 
-                    <li>
-                        <a href="custom-jewelry-making.html">
+                    <p>
+                        Gold bangles are an important part of traditional bridal
+                        jewellery. Many brides choose a combination of different
+                        bangle patterns rather than relying on one repeated design.
+                    </p>
+
+                    <p>
+                        When choosing bridal bangles, consider wrist size,
+                        sleeve design, overall jewellery weight and comfort.
+                        The final combination should look coordinated without
+                        making the hands and wrists appear unnecessarily crowded.
+                    </p>
+
+                    <!-- SECTION 7 -->
+                    <h2>
+                        How Gold Purity Affects Bridal Jewellery
+                    </h2>
+
+                    <p>
+                        Gold purity is an important part of a jewellery purchase.
+                        Different karat levels contain different proportions of
+                        pure gold and alloy materials.
+                    </p>
+
+                    <div class="article-table-wrapper">
+
+                        <table class="info-table">
+
+                            <thead>
+                                <tr>
+                                    <th>Purity</th>
+                                    <th>Approx. Gold Content</th>
+                                    <th>General Consideration</th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+
+                                <tr>
+                                    <td>24K</td>
+                                    <td>Approximately 99.9%</td>
+                                    <td>
+                                        Very high purity and commonly used as a
+                                        benchmark for gold rates.
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>22K</td>
+                                    <td>Approximately 91.6%</td>
+                                    <td>
+                                        High gold content and widely associated
+                                        with jewellery.
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>21K</td>
+                                    <td>Approximately 87.5%</td>
+                                    <td>
+                                        A commonly considered jewellery purity
+                                        in Pakistan.
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>18K</td>
+                                    <td>Approximately 75%</td>
+                                    <td>
+                                        Contains a higher proportion of alloy
+                                        compared with higher-karat gold.
+                                    </td>
+                                </tr>
+
+                            </tbody>
+
+                        </table>
+
+                    </div>
+
+                    <p>
+                        Before buying a bridal set, ask the jeweller to clearly
+                        explain the purity, weight and pricing method so you can
+                        compare different designs fairly.
+                    </p>
+
+                    <!-- SECTION 8 -->
+                    <h2>
+                        Bridal Jewellery and Gold Weight
+                    </h2>
+
+                    <p>
+                        Two jewellery sets can look similar while having different
+                        gold weights. Thickness, dimensions, design structure and
+                        craftsmanship can affect the final weight.
+                    </p>
+
+                    <p>
+                        For this reason, brides should ask about the approximate
+                        or final weight of major jewellery pieces rather than
+                        comparing designs only by appearance.
+                    </p>
+
+                    <!-- SECTION 9 -->
+                    <h2>
+                        How to Choose Bridal Jewellery According to Your Dress
+                    </h2>
+
+                    <h3>
+                        Heavy embroidered dress
+                    </h3>
+
+                    <p>
+                        A heavily embroidered bridal dress already contains
+                        significant visual detail. A balanced jewellery set can
+                        help prevent the complete look from appearing too crowded.
+                    </p>
+
+                    <h3>
+                        Minimal or elegant bridal dress
+                    </h3>
+
+                    <p>
+                        A simpler dress provides more freedom to use statement
+                        jewellery. Detailed gold work can become one of the main
+                        visual features.
+                    </p>
+
+                    <h3>
+                        Traditional bridal outfit
+                    </h3>
+
+                    <p>
+                        Traditional wedding clothing can pair naturally with
+                        classic gold jewellery, including detailed necklaces,
+                        earrings, bangles, rings and head jewellery.
+                    </p>
+
+                    <h3>
+                        Modern bridal outfit
+                    </h3>
+
+                    <p>
+                        A modern bridal outfit can work well with refined jewellery,
+                        lighter sets or customized pieces that combine traditional
+                        craftsmanship with contemporary shapes.
+                    </p>
+
+                    <!-- SECTION 10 -->
+                    <h2>
+                        Traditional vs Modern Bridal Jewellery
+                    </h2>
+
+                    <div class="article-table-wrapper">
+
+                        <table class="info-table">
+
+                            <thead>
+                                <tr>
+                                    <th>Style</th>
+                                    <th>Typical Look</th>
+                                    <th>Suitable For</th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+
+                                <tr>
+                                    <td>Traditional</td>
+                                    <td>
+                                        Detailed, classic and visually rich.
+                                    </td>
+                                    <td>
+                                        Traditional weddings and classic bridal dresses.
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>Modern</td>
+                                    <td>
+                                        Refined, cleaner and more minimal.
+                                    </td>
+                                    <td>
+                                        Contemporary outfits and modern styling.
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>Customized</td>
+                                    <td>
+                                        Designed around the bride's requirements.
+                                    </td>
+                                    <td>
+                                        Unique designs, matching outfits and
+                                        personal preferences.
+                                    </td>
+                                </tr>
+
+                            </tbody>
+
+                        </table>
+
+                    </div>
+
+                    <!-- SECTION 11 -->
+                    <h2 id="custom-jewellery">
+                        Why Customized Bridal Jewellery Can Be a Better Choice
+                    </h2>
+
+                    <p>
+                        Ready-made jewellery can be convenient, but customization
+                        may be useful when a bride has specific design requirements.
+                        A customized bridal set can be developed around necklace
+                        length, preferred style, gold purity, approximate weight,
+                        decorative elements and budget.
+                    </p>
+
+                    <p>
+                        Customization can also help create matching jewellery pieces
+                        instead of combining unrelated designs from different sets.
+                    </p>
+
+                    <p>
+                        Learn more about this option through our
+                        <a href="/custom-jewelry-making.html">
                             Custom Jewelry Making
                         </a>
-                    </li>
+                        service.
+                    </p>
 
-                    <li>
-                        <a href="gallery.html">
-                            Jewellery Gallery
-                        </a>
-                    </li>
+                    <!-- SECTION 12 -->
+                    <h2>
+                        How to Choose the Right Bridal Jewellery Budget
+                    </h2>
 
-                    <li>
-                        <a href="blogs.html">
-                            Gold Jewellery Blog
-                        </a>
-                    </li>
-                </ul>
+                    <p>
+                        The total cost of bridal jewellery can depend on gold purity,
+                        gold weight, design complexity, craftsmanship, stones and
+                        other applicable charges.
+                    </p>
 
-            </article>
-
-            <!-- SIDEBAR -->
-            <aside class="sidebar">
-
-                <div class="sidebar-card">
-
-                    <h3>Bridal Jewellery Guide</h3>
+                    <p>
+                        Before shopping, decide how much of your budget should be
+                        allocated to the necklace, earrings, bangles, rings and
+                        additional pieces.
+                    </p>
 
                     <ul>
-                        <li>
-                            <a href="#best-bridal-jewellery">
-                                Choosing the Best Set
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#bridal-necklace">
-                                Bridal Necklaces
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#gold-bangles">
-                                Gold Bangles
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#custom-jewellery">
-                                Custom Jewellery
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#faq">
-                                FAQs
-                            </a>
-                        </li>
+                        <li>Set an overall jewellery budget.</li>
+                        <li>Decide which jewellery pieces are essential.</li>
+                        <li>Select your preferred gold purity.</li>
+                        <li>Compare the weight of similar designs.</li>
+                        <li>Ask about workmanship and other charges.</li>
+                        <li>Keep room in the budget for customization if required.</li>
                     </ul>
 
-                </div>
+                    <!-- SECTION 13 -->
+                    <h2>
+                        Bridal Jewellery Shopping Tips in Sargodha
+                    </h2>
 
-                <div class="sidebar-card">
+                    <p>
+                        Customers searching for
+                        <strong>bridal jewellery Sargodha</strong>
+                        should compare jewellery on consistent factors.
+                        Comparing only photographs or headline prices can be
+                        misleading when purity, weight and additional charges differ.
+                    </p>
 
-                    <h3>SM Gold Services</h3>
+                    <h3>
+                        Ask about gold purity
+                    </h3>
+
+                    <p>
+                        Confirm whether the jewellery is 24K, 22K, 21K, 18K or
+                        another specified purity before comparing prices.
+                    </p>
+
+                    <h3>
+                        Ask about weight
+                    </h3>
+
+                    <p>
+                        Gold weight is a major component of jewellery pricing.
+                        Ask for the weight of individual pieces or the full set
+                        wherever possible.
+                    </p>
+
+                    <h3>
+                        Ask about workmanship
+                    </h3>
+
+                    <p>
+                        Detailed jewellery designs may include additional
+                        craftsmanship charges. Understand these charges before
+                        confirming your order.
+                    </p>
+
+                    <h3>
+                        Check the final amount
+                    </h3>
+
+                    <p>
+                        Do not compare only a gold rate. Ask for the complete
+                        price of the finished jewellery item or set.
+                    </p>
+
+                    <!-- SECTION 14 -->
+                    <h2>
+                        Why Brides Should Think About Comfort
+                    </h2>
+
+                    <p>
+                        Wedding functions can continue for many hours. Jewellery
+                        that looks attractive but feels uncomfortable may become
+                        difficult to wear throughout the celebrations.
+                    </p>
+
+                    <p>
+                        Consider the weight of earrings, necklace fit, bangle size
+                        and the security of individual pieces while moving or dancing.
+                    </p>
+
+                    <!-- SECTION 15 -->
+                    <h2>
+                        Bridal Jewellery Maintenance After the Wedding
+                    </h2>
+
+                    <p>
+                        Proper care can help preserve the appearance of your
+                        jewellery after the wedding celebrations.
+                    </p>
 
                     <ul>
+                        <li>Store jewellery pieces separately where practical.</li>
+                        <li>Keep jewellery away from unnecessary moisture.</li>
+                        <li>Avoid direct contact with perfumes and harsh chemicals.</li>
+                        <li>Use suitable storage to reduce scratching.</li>
+                        <li>Have damaged or worn pieces checked by a jeweller.</li>
+                    </ul>
+
+                    <p>
+                        For jewellery that requires maintenance, explore our
+                        <a href="/gold-polishing-repair.html">
+                            Gold Polishing &amp; Repair
+                        </a>
+                        service.
+                    </p>
+
+                    <!-- SECTION 16 -->
+                    <h2>
+                        Best Bridal Jewellery Set: Final Checklist
+                    </h2>
+
+                    <p>
+                        Before finalizing your bridal jewellery, use this practical
+                        checklist:
+                    </p>
+
+                    <ol>
+                        <li>Finalize your bridal dress and neckline.</li>
+                        <li>Choose traditional, modern or customized jewellery.</li>
+                        <li>Decide which jewellery pieces you need.</li>
+                        <li>Confirm the preferred gold purity.</li>
+                        <li>Compare expected gold weight.</li>
+                        <li>Ask about workmanship and additional charges.</li>
+                        <li>Consider comfort and fit.</li>
+                        <li>Review the complete final amount before purchasing.</li>
+                    </ol>
+
+                    <!-- SECTION 17 -->
+                    <h2>
+                        Bridal Jewellery in Sargodha from SM Gold
+                    </h2>
+
+                    <p>
+                        SM Gold Jewellers serves customers in Sargodha with gold
+                        jewellery, bridal jewellery, custom jewellery and related
+                        services. Customers can discuss bridal designs, gold purity,
+                        approximate weight, customization requirements and available
+                        options before making a final decision.
+                    </p>
+
+                    <p>
+                        SM Gold is located at
+                        <strong>1st Floor, Alfalah Market, Sarafa Bazar, Sargodha</strong>,
+                        making it convenient for local customers to discuss their
+                        wedding jewellery requirements.
+                    </p>
+
+                    <p>
+                        Explore our
+                        <a href="/bridal-gold-sets.html">
+                            Bridal Gold Sets
+                        </a>
+                        service for more information.
+                    </p>
+
+                    <!-- CTA -->
+                    <div class="cta-box">
+
+                        <h2>
+                            Looking for the Best Bridal Jewellery Set in Sargodha?
+                        </h2>
+
+                        <p>
+                            Contact SM Gold to discuss bridal necklaces, earrings,
+                            bangles, rings, complete bridal sets and customized
+                            jewellery designs. Ask about purity, weight, design
+                            options and the final quotation before placing your order.
+                        </p>
+
+                        <div class="cta-buttons">
+
+                            <a
+                                class="cta-whatsapp"
+                                href="https://wa.me/923236069069"
+                                target="_blank"
+                                rel="noopener">
+                                💬 WhatsApp SM Gold
+                            </a>
+
+                            <a
+                                class="cta-call"
+                                href="tel:+923236069069">
+                                📞 Call 0323 6069069
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                    <!-- FAQ -->
+                    <section class="faq-section" id="faq">
+
+                        <h2>
+                            Frequently Asked Questions
+                        </h2>
+
+                        <div class="faq-item">
+
+                            <h3>
+                                How do I choose the best bridal jewellery set?
+                            </h3>
+
+                            <p>
+                                Choose a bridal jewellery set according to your
+                                wedding dress, neckline, face shape, preferred style,
+                                gold purity, weight, comfort and budget.
+                            </p>
+
+                        </div>
+
+                        <div class="faq-item">
+
+                            <h3>
+                                What jewellery is usually included in a bridal gold set?
+                            </h3>
+
+                            <p>
+                                A bridal set may include a necklace, earrings,
+                                bangles, ring, tikka, jhumar and other matching
+                                jewellery pieces depending on the chosen design.
+                            </p>
+
+                        </div>
+
+                        <div class="faq-item">
+
+                            <h3>
+                                Where can I find bridal jewellery in Sargodha?
+                            </h3>
+
+                            <p>
+                                You can explore established jewellery shops and
+                                jewellery markets in Sargodha. SM Gold Jewellers
+                                is located at 1st Floor, Alfalah Market,
+                                Sarafa Bazar, Sargodha.
+                            </p>
+
+                        </div>
+
+                        <div class="faq-item">
+
+                            <h3>
+                                Can bridal jewellery be customized?
+                            </h3>
+
+                            <p>
+                                Yes. Bridal jewellery can be customized around
+                                preferred design, necklace length, gold purity,
+                                weight, stones and matching requirements.
+                            </p>
+
+                        </div>
+
+                        <div class="faq-item">
+
+                            <h3>
+                                How can I choose a beautiful jewellery design for my wedding?
+                            </h3>
+
+                            <p>
+                                Start with your wedding dress, neckline, embroidery,
+                                hairstyle and overall wedding style. Select jewellery
+                                that complements the outfit and maintains visual balance.
+                            </p>
+
+                        </div>
+
+                    </section>
+
+                    <!-- RELATED LINKS -->
+                    <h2>
+                        Related SM Gold Resources
+                    </h2>
+
+                    <p>
+                        Continue exploring SM Gold's jewellery services and gold
+                        information:
+                    </p>
+
+                    <ul>
+
                         <li>
-                            <a href="bridal-gold-sets.html">
+                            <a href="/gold-rate-today-sargodha.html">
+                                Gold Rate Today Sargodha
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="/bridal-gold-sets.html">
                                 Bridal Gold Sets
                             </a>
                         </li>
 
                         <li>
-                            <a href="custom-jewelry-making.html">
+                            <a href="/custom-jewelry-making.html">
                                 Custom Jewelry Making
                             </a>
                         </li>
 
                         <li>
-                            <a href="gold-polishing-repair.html">
+                            <a href="/gold-polishing-repair.html">
                                 Gold Polishing &amp; Repair
                             </a>
                         </li>
 
                         <li>
-                            <a href="daily-wear-collection.html">
-                                Daily Wear Collection
+                            <a href="/gallery.html">
+                                Jewellery Gallery
                             </a>
                         </li>
 
                         <li>
-                            <a href="gold-rate-today-sargodha.html">
-                                Gold Rate Today Sargodha
+                            <a href="/blogs.html">
+                                Gold Jewellery Blog
                             </a>
                         </li>
+
                     </ul>
 
-                </div>
+                </article>
 
-                <div class="sidebar-card">
+                <!-- ==============================
+                     SIDEBAR
+                ============================== -->
+                <aside class="article-sidebar">
 
-                    <h3>Contact SM Gold</h3>
+                    <div class="sidebar-card">
 
-                    <p>
-                        1st Floor, Alfalah Market,
-                        Sarafa Bazar, Sargodha
-                    </p>
+                        <h3>
+                            Bridal Jewellery Guide
+                        </h3>
 
-                    <p>
-                        <strong>Phone:</strong><br>
-                        <a href="tel:+923236069069">
-                            0323 6069069
-                        </a>
-                    </p>
+                        <ul>
 
-                    <p>
-                        <strong>WhatsApp:</strong><br>
-                        <a href="https://wa.me/923236069069"
-                           target="_blank"
-                           rel="noopener">
-                            Chat on WhatsApp
-                        </a>
-                    </p>
+                            <li>
+                                <a href="#best-bridal-jewellery">
+                                    Choosing the Best Set
+                                </a>
+                            </li>
 
-                    <p>
-                        <strong>Opening:</strong><br>
-                        Open 24 Hours, Every Day
-                    </p>
+                            <li>
+                                <a href="#bridal-necklace">
+                                    Bridal Necklaces
+                                </a>
+                            </li>
 
-                </div>
+                            <li>
+                                <a href="#gold-bangles">
+                                    Gold Bangles
+                                </a>
+                            </li>
 
-            </aside>
+                            <li>
+                                <a href="#custom-jewellery">
+                                    Custom Jewellery
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#faq">
+                                    Frequently Asked Questions
+                                </a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                    <div class="sidebar-card">
+
+                        <h3>
+                            SM Gold Services
+                        </h3>
+
+                        <ul>
+
+                            <li>
+                                <a href="/bridal-gold-sets.html">
+                                    Bridal Gold Sets
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="/custom-jewelry-making.html">
+                                    Custom Jewelry Making
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="/gold-polishing-repair.html">
+                                    Gold Polishing &amp; Repair
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="/daily-wear-collection.html">
+                                    Daily Wear Collection
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="/gold-rate-today-sargodha.html">
+                                    Gold Rate Today Sargodha
+                                </a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                    <div class="sidebar-card">
+
+                        <h3>
+                            Contact SM Gold
+                        </h3>
+
+                        <p>
+                            <strong>Address:</strong><br>
+                            1st Floor, Alfalah Market,
+                            Sarafa Bazar, Sargodha
+                        </p>
+
+                        <p>
+                            <strong>Phone:</strong><br>
+                            <a href="tel:+923236069069">
+                                0323 6069069
+                            </a>
+                        </p>
+
+                        <p>
+                            <strong>WhatsApp:</strong><br>
+                            <a
+                                href="https://wa.me/923236069069"
+                                target="_blank"
+                                rel="noopener">
+                                Chat on WhatsApp
+                            </a>
+                        </p>
+
+                        <p>
+                            <strong>Email:</strong><br>
+                            <a href="mailto:Services.smgold@gmail.com">
+                                Services.smgold@gmail.com
+                            </a>
+                        </p>
+
+                        <p>
+                            <strong>Opening:</strong><br>
+                            Open 24 Hours, Every Day
+                        </p>
+
+                    </div>
+
+                </aside>
+
+            </div>
 
         </div>
 
     </main>
 
-    <!-- FOOTER -->
+    <!-- ==============================
+         FOOTER
+    ============================== -->
     <footer class="site-footer">
 
         <div class="container">
 
             <div class="footer-content">
 
+                <!-- FOOTER ABOUT -->
                 <div class="footer-about">
 
                     <div class="footer-logo">
-                        <a href="index.html">
-                            <img src="images/logo.png"
-                                 alt="SM Gold Jewellers Sargodha"
-                                 loading="lazy">
+
+                        <a href="/index.html">
+
+                            <img
+                                src="/images/logo.png"
+                                alt="SM Gold Jewellers Sargodha"
+                                loading="lazy">
+
                         </a>
+
                     </div>
 
                     <p>
@@ -1252,85 +1706,98 @@
 
                 </div>
 
+                <!-- SERVICES -->
                 <div class="footer-column">
 
-                    <h4>Services</h4>
+                    <h4>
+                        Services
+                    </h4>
 
                     <ul>
+
                         <li>
-                            <a href="custom-jewelry-making.html">
+                            <a href="/custom-jewelry-making.html">
                                 Custom Jewelry Making
                             </a>
                         </li>
 
                         <li>
-                            <a href="bridal-gold-sets.html">
+                            <a href="/bridal-gold-sets.html">
                                 Bridal Gold Sets
                             </a>
                         </li>
 
                         <li>
-                            <a href="gold-polishing-repair.html">
+                            <a href="/gold-polishing-repair.html">
                                 Gold Polishing &amp; Repair
                             </a>
                         </li>
 
                         <li>
-                            <a href="daily-wear-collection.html">
+                            <a href="/daily-wear-collection.html">
                                 Daily Wear Collection
                             </a>
                         </li>
 
                         <li>
-                            <a href="gold-rate-today-sargodha.html">
+                            <a href="/gold-rate-today-sargodha.html">
                                 Gold Rate Today Sargodha
                             </a>
                         </li>
+
                     </ul>
 
                 </div>
 
+                <!-- QUICK LINKS -->
                 <div class="footer-column">
 
-                    <h4>Quick Links</h4>
+                    <h4>
+                        Quick Links
+                    </h4>
 
                     <ul>
+
                         <li>
-                            <a href="gold-rate.html">
+                            <a href="/gold-rate.html">
                                 Today's Gold Rate
                             </a>
                         </li>
 
                         <li>
-                            <a href="blogs.html">
+                            <a href="/blogs.html">
                                 Gold Jewellery Blog
                             </a>
                         </li>
 
                         <li>
-                            <a href="gallery.html">
+                            <a href="/gallery.html">
                                 Gallery
                             </a>
                         </li>
 
                         <li>
-                            <a href="about.html">
+                            <a href="/about.html">
                                 About Us
                             </a>
                         </li>
 
                         <li>
-                            <a href="contact.html">
+                            <a href="/contact.html">
                                 Contact
                             </a>
                         </li>
+
                     </ul>
 
                 </div>
 
+                <!-- CONTACT -->
                 <div class="footer-column">
 
-                    <h4>Contact</h4>
+                    <h4>
+                        Contact
+                    </h4>
 
                     <ul>
 
@@ -1361,6 +1828,7 @@
 
             </div>
 
+            <!-- FOOTER BOTTOM -->
             <div class="footer-bottom">
 
                 <p>
@@ -1368,9 +1836,19 @@
                 </p>
 
                 <div class="footer-bottom-links">
-                    <a href="sitemap.xml">Sitemap</a>
-                    <a href="privacy-policy.html">Privacy Policy</a>
-                    <a href="terms-of-service.html">Terms of Service</a>
+
+                    <a href="/sitemap.xml">
+                        Sitemap
+                    </a>
+
+                    <a href="/privacy-policy.html">
+                        Privacy Policy
+                    </a>
+
+                    <a href="/terms-of-service.html">
+                        Terms of Service
+                    </a>
+
                 </div>
 
             </div>
@@ -1379,28 +1857,37 @@
 
     </footer>
 
-    <!-- FLOATING WHATSAPP -->
-    <a href="https://wa.me/923236069069"
-       class="floating-whatsapp"
-       target="_blank"
-       rel="noopener"
-       aria-label="Contact SM Gold on WhatsApp">
+    <!-- ==============================
+         FLOATING WHATSAPP
+    ============================== -->
+    <a
+        href="https://wa.me/923236069069"
+        class="floating-whatsapp"
+        target="_blank"
+        rel="noopener"
+        aria-label="Contact SM Gold on WhatsApp">
         💬
     </a>
 
-    <!-- BACK TO TOP -->
-    <button id="backToTop"
-            class="back-to-top"
-            aria-label="Back to top">
+    <!-- ==============================
+         BACK TO TOP
+    ============================== -->
+    <button
+        id="backToTop"
+        class="back-to-top"
+        aria-label="Back to top">
         ↑
     </button>
 
-    <!-- MOBILE CTA -->
+    <!-- ==============================
+         MOBILE CTA
+    ============================== -->
     <div class="mobile-cta">
 
-        <a href="https://wa.me/923236069069"
-           target="_blank"
-           rel="noopener">
+        <a
+            href="https://wa.me/923236069069"
+            target="_blank"
+            rel="noopener">
             💬 WhatsApp
         </a>
 
@@ -1410,9 +1897,10 @@
 
     </div>
 
-    <script src="js/script.js"></script>
-
-    <!-- Google Tag Manager / Analytics can remain handled by your existing site script setup -->
+    <!-- ==============================
+         MAIN WEBSITE JAVASCRIPT
+    ============================== -->
+    <script src="/js/script.js"></script>
 
 </body>
 </html>
